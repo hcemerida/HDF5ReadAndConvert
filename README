@@ -3,3 +3,6 @@ Steps:
 2.) Install latest R version, open R x64, and install packages "rgdal", "raster", "h5", "reshape2" from "Packages" menu bar. 
 3.) Set working directory to the location of the HDF5 folder, command is setwd("directory"). R uses double slashes. For example > setwd("C:\\Users\\Me\\Desktop\\Data")
 4.) In RGui, Click File, then Source R Code, then select HDF5ReaderAndConverter.R
+
+Notes:
+- Current runtime is about a minute per file.
